@@ -4,7 +4,8 @@ const app = express()
 var current = 0
 
 var instances = [
-    "http://localhost:3021"
+    "192.168.1.68:3021"
+    //"http://localhost:3021"
     //,"http://localhost:3022"
 ]
 
