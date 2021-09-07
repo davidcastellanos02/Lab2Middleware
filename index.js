@@ -11,6 +11,7 @@ var instances = [
 
 app.get('/', (req,res) => {
     const server  = instances[current]
+    
     //current > instances.length ? current = 0 : current++
     res.redirect(server)
 })
